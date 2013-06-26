@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url('SourceSansPro-Regular-webfont.eot');
+    src: url('SourceSansPro-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SourceSansPro-Regular-webfont.woff') format('woff'),
+         url('SourceSansPro-Regular-webfont.ttf') format('truetype'),
+         url('SourceSansPro-Regular-webfont.svg#SourceSansProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SourceSansProLight';
+    src: url('SourceSansPro-Light-webfont.eot');
+    src: url('SourceSansPro-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SourceSansPro-Light-webfont.woff') format('woff'),
+         url('SourceSansPro-Light-webfont.ttf') format('truetype'),
+         url('SourceSansPro-Light-webfont.svg#SourceSansProLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	height: 100%;
+	margin:0;
+	padding:0;
+	font-family: 'SourceSansProLight','Helvetica','Arial',sans-serif;
+	color:#fff;
+}
+a{
+	color:#fff;
+	text-decoration: none;
+}
+h2{
+	font-weight: normal;
+}
+#header,#content,#footer{
+	width:100%;
+}
+#header{
+	_background:transparent;
+	height: 70px;
+}
+#navigation{
+	position: absolute;
+	left:300px;
+	top:28px;
+}
+#navigation li{
+	float:left;
+	margin-right: 18px;
+}
+#header #navigation li a{
+	font-size:20px;
+}
+#header #navigation li a:hover{
+	color:#F6D3A4;
+}
+#header #logo{
+	text-indent: -999em;
+	position: absolute;
+	top:0;
+	left:100px;
+	width: 150px;
+	height: 286px;
+	background: url("../img/yangji.png") no-repeat;
+}
+#slogan{
+	width: 272px;
+	height: 42px;
+	background: url("../img/intro1.png") no-repeat;
+	position: absolute;
+	z-index: 1000;
+	top:120px;
+	right:8%;
+}
+.contact-us{
+	background: url("../img/slogan2.png") no-repeat;
+	top:100px;
+	right: 4%;
+}
+.contact img{
+	padding-right:40px;
+}
+#content{
+	background: transparent;
+	clear: left;
+	position: absolute;
+	bottom: 30px;
+	left:0;
+	padding:24px 18px 10px;
+}
+#about{
+	width:30%;
+	margin-right: 20px;
+}
+#about,#gallery{
+	float:left;
+}
+#gallery{
+	width: 702px;
+}
+#album a{
+	position: relative;
+	width:200px;
+}
+#album a img{
+	border:1px solid #fff;
+}
+#album a span{
+	position: absolute;
+	top:90px;
+	left: 12px;
+	font-size: 20px;
+	line-height: 20px;
+}
+#footer{
+	clear:left;
+	position: absolute;
+	background:#000;
+	left: 0;
+	bottom: 0;
+	text-align: right;
+	height: 30px;
+	line-height: 30px;
+}
+#header,#content,#intro-wrapper,#detail-wrapper,#menu,.thumbnail span{
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);
+}
+/*introduction*/
+#intro-wrapper{
+	position: absolute;
+	top:120px;
+	left:300px;
+	width:64%;
+	overflow:hidden;
+}
+#introduction{
+	position: absolute;
+	font-size:18px;
+	font-family: "SourceSansProRegular","Helvetica","Arial",sans-serif;
+	line-height: 24px;
+	padding:24px;
+}
+/*introduction page style end*/
+/*for category page*/
+#detail-wrapper{
+	background: transparent;
+	position: absolute;
+	top:120px;
+	left:300px;
+	width:50%;/*do not use right:29%;etc as ie6 will not render correctly*/
+	overflow: hidden;
+}
+#detail,#menu{
+	position: absolute;
+}
+#detail{
+	overflow: hidden;
+	position: absolute;
+	padding:24px;
+	width:100%;
+	z-index: 999;
+}
+#detail h2{
+	font-size: 26px;
+}
+#detail #thumbnails{
+	margin:20px 0 0 0;
+}
+.thumbnail{
+	position: relative;
+	padding:0;
+	overflow: hidden;
+	margin-right: 0;
+}
+.thumbnail span{
+	position: absolute;
+	left:0;
+	bottom: 0;
+	line-height: 30px;
+	text-indent: 14px;
+	width:130px;
+}
+#menu{
+	top:120px;
+	right:8%;
+	width: 16%;
+	padding:24px;
+	background:rgba(0,0,0,0.4);
+	z-index:998;
+}
+#menu li a{
+	font-size: 18px;
+}
+/*category page style end*/

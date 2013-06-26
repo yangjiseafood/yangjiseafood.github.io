@@ -1,0 +1,7 @@
+<h2>Seasoning</h2>
+			<div id="thumbnails">
+				<a class="thumbnail"><img src="../img/category/birdsnest.jpg" /><span>Bird's Nest</span></a>
+				<a class="thumbnail"><img src="../img/category/wormgrass.jpg" /><span>Worm Grass</span></a>
+				<a class="thumbnail"><img src="../img/category/abalon1.jpg" /><span>Abalon</span></a>
+				<a class="thumbnail"><img src="../img/category/saffron.jpg"><span>Saffron</span></a>
+			</div>

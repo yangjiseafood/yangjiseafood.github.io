@@ -1,0 +1,19 @@
+/*rgba background*/
+#intro-wrapper,#detail-wrapper,#menu,.thumbnail span{
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);
+}
+#introduction{
+	padding:32px;
+}
+#detail{
+	padding:32px;
+}
+.contact img{
+	padding-right: 40px;
+}
+.ScollBar{
+	background:#000\9 !important;
+}
+.ScrollBg{
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);
+}

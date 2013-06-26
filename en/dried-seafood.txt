@@ -1,0 +1,3 @@
+<h2>Dried Seafood</h2>
+			<div id="thumbnails">
+				<a class="thumbnail"><img src="../img/category/abalon2.jpg" /><span>Huangyu Abalon</span></a>

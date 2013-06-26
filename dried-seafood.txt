@@ -1,0 +1,6 @@
+<h2>干货</h2>
+			<div id="thumbnails">
+				<a class="thumbnail"><img src="img/category/abalon2.jpg" /><span>黄玉鲍</span></a>
+				<a class="thumbnail"><img src="img/category/wormgrass.jpg" /><span>虫草</span></a>
+				<a class="thumbnail"><img src="img/category/abalon1.jpg" /><span>糖心鲍</span></a>
+				<a class="thumbnail"><img src="img/category/birdsnest.jpg" /><span>燕窝</span></a>

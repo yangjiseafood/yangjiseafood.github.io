@@ -1,0 +1,4 @@
+<h2>调料</h2>
+			<div id="thumbnails">
+				<a class="thumbnail"><img src="img/category/saffron.jpg"><span>藏红花</span></a>
+			</div>

@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Yangji Seafood Trading</title>
+		<link rel="stylesheet" href="../css/bgstretcher.css" />
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<!--[if gt IE 6]>
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<![endif]-->
+		<!--[if (IE 7)|(IE 8)]>
+		<link rel="stylesheet" type="text/css" href="../css/IE78fix.css" />
+		<![endif]-->
+		<!--[if IE 6]>
+        <link rel="stylesheet" type="text/css" href="../css/IE6.css" />
+        <script type="text/javascript" src="../js/unitpngfix.js"></script>
+ 		<![endif]-->
+		<link rel="stylesheet" type="text/css" href="../css/en.css" />
+		<script type="text/javascript" src="../js/jquery-1.5.2.min.js"></script>
+		<script type="text/javascript" src="../js/bgstretcher.js"></script>
+		<script type="text/javascript" src="../js/mousewheel.js"></script>
+        <script type="text/javascript" src="../js/setScrollbar.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+		//  Initialize Backgound Stretcher
+		$('BODY').bgStretcher({
+		images: ['../img/bg3.jpg', '../img/bg2.jpg', '../img/bg1.jpg'], 
+		imageWidth: 1680, 
+		imageHeight: 1050,
+		preloadImg: true,
+		transitionEffect: 'fade',
+		slideShowSpeed: 2000,
+		nextSlideDelay: 40000
+		});
+		$('#intro-wrapper').css("height",$(document).height()-300);
+        var intro = $("#introduction");
+        var wrapper = $("#intro-wrapper");
+        setScrollBar(intro,wrapper);
+		});
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<h1 id="logo"><a href="index.html" title="Yangji Seafood Trading,Premium Seafood Supplier">Yangji Seafood Trading</a></h1>
+			<ul id="navigation">
+				<li><a href="index.html" title="Home">Home</a></li>
+				<li><a href="introduction.html" title="Introduction">Introduction</a></li>
+				<li><a href="category.html" title="Category">Category</a></li>
+				<li><a href="contact.html" title="Contact">Contact</a>
+			</ul>
+		</div>
+		<div id="slogan" class="contact-us"></div>
+		<div id="intro-wrapper">
+		<div id="introduction" class="contact">
+			<img src="../img/map.jpg" alt="Map" />
+			<span>21-24,13 Street,<br />Huanan Seafood Fishery Wholesale Market,<br />108 Hankou Fazhan Avenue</span>
+			<p>Tel 027-65657797<br />Fax 027-85836132(Office)<br />
+			</p>
+		</div>
+		</div>
+		<div id="footer">
+			<span>Copyright © 2012 Yangji Seafood Trading.</span>
+		</div>
+	</body>
+</html>
